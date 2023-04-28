@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get "moreroutes/hello"
   get "moreroutes/cheese"
 
+  resources :dogs
   # Defines the root path route ("/")
   # root "articles#index"
 end
